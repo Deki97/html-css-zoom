@@ -9,6 +9,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* HEADER */
 header {
     display: flex;
     height: 50px;
@@ -25,3 +34,29 @@ header > div {
     padding: 4px 8px;
     border-radius: 10px;
 }
+/* END HEADER */
+
+/* MAIN */
+main {
+    height: calc(100vh - 130px);
+    background-color: gainsboro;
+    overflow-y: auto;
+}
+
+.user {
+    height: 120px;
+    width: 180px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin: 3px;
+}
+/* END MAIN */
+
+
+/* FOOTER */
+footer {
+    height: 80px;
+    background-color: lightseagreen;
+}
+/* END FOOTER */
+
