@@ -48,6 +48,7 @@ main {
     overflow-y: auto;
 }
 
+/* SINGLE USER */
 .user {
     position: relative;
     width: 100%;
@@ -73,6 +74,7 @@ main {
     font-size: 14px;
     color: white;
 }
+/* END SINGLE USER */
 
 /* END MAIN */
 
@@ -84,13 +86,17 @@ footer {
     display: flex;
 }
 
+/* FOOTER LEFT SIDE */
 .footer-left {
     display: flex;
     width: 15%;
     justify-content: space-around;
     align-items: center;
 }
+/* END FOOTER LEFT SIDE */
 
+
+/* FOOTER SINGLE ITEM */
 .item {
     margin: 8px;
     text-align: center;
@@ -102,13 +108,20 @@ footer {
     color: #4bc800;
 }
 
+.item i {
+    margin-bottom: 5px;
+}
+
+/* FOOTER CENTER */
 .footer-center {
     display: flex;
     width: 75%;
     justify-content: center;
     align-items: center;
 }
+/* END FOOTER CENTER */
 
+/* FOOTER RIGHT SIDE */
 .footer-right {
     display: flex;
     width: 10%;
@@ -117,8 +130,11 @@ footer {
     background-color: rgba(74, 74, 74, 0.6);
 }
 
+
 .footer-right .item.end {
     color: red;
 }
+/* END FOOTER RIGHT */
+
 /* END FOOTER */
 
