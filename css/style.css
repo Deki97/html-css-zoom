@@ -4,3 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    background-color: burlywood;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+header > div {
+    font-size: 16px;
+    background-color: #4a4a4a;
+    color: white;
+    margin: 5px 5px;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
